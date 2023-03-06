@@ -21,7 +21,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 /**
  * A aplicação escuta uma requisição HTTP do tipo POST na URI
- * http://127.0.0.1:8000/api/pizza-maker , converte o JSON enviado
+ * http://localhost:8000/api/pizza-maker , converte o JSON enviado
  * no body da requisição em um objeto, itera pelo objeto, soma o
  * valor de cada chave à variável $total, itera novamente pelo
  * objeto, substitui o valor da chave pelo angulo equivalente
